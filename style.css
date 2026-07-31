@@ -123,3 +123,11 @@ footer a{display:block; color:#cfd6e0; margin-bottom:8px; font-size:13px;}
     .gallery-grid{grid-template-columns:1fr 1fr;}
     .form-row{grid-template-columns:1fr;}
 }
+
+         .hero-photo{position:relative; width:100%; aspect-ratio:1536/1024; overflow:hidden; background:linear-gradient(135deg,var(--navy),#1c3d68);}
+.hero-photo img{width:100%; height:100%; object-fit:cover; display:block;}
+.hero-photo-cta{position:absolute; left:9%; top:73%; width:24%; height:9%; display:block;}
+.hero-photo-cta:focus{outline:3px solid var(--gold); outline-offset:2px;}
+@media (max-width:900px){
+        .hero-photo-cta{left:6%; top:70%; width:45%; height:6%;}
+}
