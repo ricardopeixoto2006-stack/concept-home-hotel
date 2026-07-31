@@ -131,3 +131,6 @@ footer a{display:block; color:#cfd6e0; margin-bottom:8px; font-size:13px;}
 @media (max-width:900px){
         .hero-photo-cta{left:6%; top:70%; width:45%; height:6%;}
 }
+
+.cadastro-hero-photo{width:100%; overflow:hidden; line-height:0;}
+.cadastro-hero-photo img{width:100%; height:auto; display:block;}
